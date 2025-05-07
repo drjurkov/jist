@@ -1,0 +1,17 @@
+{
+  "type": "function",
+  "name": "add",
+  "params": ["a", "b"],
+  "returns": "number",
+  "body": [
+    {
+      "type": "return",
+      "value": {
+        "type": "binary",
+        "operator": "+",
+        "left": "a",
+        "right": "b"
+      }
+    }
+  ]
+}
